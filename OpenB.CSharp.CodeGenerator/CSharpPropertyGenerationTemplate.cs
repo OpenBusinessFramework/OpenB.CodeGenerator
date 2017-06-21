@@ -6,7 +6,18 @@ namespace OpenB.CSharp.CodeGenerator
 {
     public class CSharpPropertyGenerationTemplate : IMemberGenerationTemplate
     {
-        public void Generate(FormattedStringBuilder stringBuilder, string propertyName, string propertyType, Cardinality cardinality)
+        string propertyName;
+        string propertyType;
+        Cardinality cardinality;
+
+        public CSharpPropertyGenerationTemplate(string propertyName, string propertyType, Cardinality cardinality)
+        {
+            this.propertyName = propertyName;
+            this.propertyType = propertyType;
+            this.cardinality = cardinality;
+        }
+
+        public void Build(FormattedStringBuilder stringBuilder)
         {
             switch (cardinality)
             {

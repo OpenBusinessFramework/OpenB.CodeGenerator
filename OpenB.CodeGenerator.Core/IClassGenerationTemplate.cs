@@ -3,8 +3,8 @@ using System.Collections.Generic;
 
 namespace OpenB.CodeGenerator.Core
 {
-    public interface IClassGenerationTemplate
+    public interface IClassGenerationTemplate : ITreeCodeBuilder
     {
-        void Generate(FormattedStringBuilder stringBuilder, string className, Visibility visibility, IMemberGenerationTemplate propertyGenerationTemplate, IList<MemberDetails> memberDetails);
+        
     }
 }

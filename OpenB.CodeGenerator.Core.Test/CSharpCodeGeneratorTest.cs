@@ -13,7 +13,7 @@ namespace OpenB.CodeGenerator.Core.Test
             ClassDetails settings = new ClassDetails
             {
                 References = {
-                    { "MyOpenBProject.Models" },
+                    { "System.Collections.Generic" },
                     { "System" }
                 },
                 ClassName = "Person",
@@ -21,7 +21,9 @@ namespace OpenB.CodeGenerator.Core.Test
                    new MemberDetails { Name = "Name", Type = "string" },
                    new MemberDetails { Name = "Address", Type = "Adress" },
                    new MemberDetails { Name = "Children" , Type = "Person", Cardinality = Cardinality.OneToMany},
-                }
+                },
+                Namespace = "MyOpenBProject.Models",
+                Implementing = { "IModel" }
             };
 
             CSharpCodeGenerator csharpCodeGenerator = new CSharpCodeGenerator();

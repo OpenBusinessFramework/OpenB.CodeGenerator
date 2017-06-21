@@ -2,8 +2,8 @@
 
 namespace OpenB.CodeGenerator.Core
 {
-    public interface IMemberGenerationTemplate
+    public interface IMemberGenerationTemplate : ICodeBuilder
     {
-        void Generate(FormattedStringBuilder stringBuilder, string properyName, string propertyType, Cardinality cardinality);
+        
     }
 }

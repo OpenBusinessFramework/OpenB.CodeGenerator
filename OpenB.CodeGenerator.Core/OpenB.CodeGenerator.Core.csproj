@@ -40,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ClassStringBuilderSettings.cs" />
     <Compile Include="CodeGeneratorBase.cs" />
     <Compile Include="CodeGeneratorSettings.cs" />
     <Compile Include="IClassGenerationTemplate.cs" />
@@ -48,7 +49,6 @@
     <Compile Include="IReferenceImportGenerationTemplate.cs" />
     <Compile Include="MemberDetails.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TargetLanguageSettings.cs" />
     <Compile Include="Util\ClassStringBuilder.cs" />
     <Compile Include="Util\FormattedStringBuilder.cs" />
     <Compile Include="Visibility.cs" />

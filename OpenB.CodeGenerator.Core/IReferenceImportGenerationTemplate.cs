@@ -2,8 +2,8 @@
 
 namespace OpenB.CodeGenerator.Core
 {
-    public interface IReferenceImportGenerationTemplate
+    public interface IReferenceImportGenerationTemplate : ICodeBuilder
     {
-        void Generate(FormattedStringBuilder stringBuilder, string[] references);
+      
     }
 }

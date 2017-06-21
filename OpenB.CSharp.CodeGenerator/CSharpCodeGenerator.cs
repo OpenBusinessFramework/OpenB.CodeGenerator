@@ -1,10 +1,12 @@
 ﻿using OpenB.CodeGenerator.Core;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace OpenB.CSharp.CodeGenerator
 {
     public class CSharpCodeGenerator : CodeGeneratorBase
     {
-        public CSharpCodeGenerator() : base(new ClassStringBuilderSettings(new CSharpClassGenerationTemplate(), new CSharpPropertyGenerationTemplate(), new CSharpNameSpaceImportTemplate(), new CSharpNamespaceGenerationTemplate()))
+        public CSharpCodeGenerator() : base(new ClassStringBuilderSettings<CSharpPropertyGenerationTemplate, CSharpNameSpaceImportTemplate, CSharpNamespaceGenerationTemplate, CSharpClassGenerationTemplate>())
         {
         }     
     }

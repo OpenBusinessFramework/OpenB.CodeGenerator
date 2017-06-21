@@ -2,11 +2,8 @@
 
 namespace OpenB.CodeGenerator.Core
 {
-    public interface INamespaceGenerationTemplate
+    public interface INamespaceGenerationTemplate : ICodeBuilder
     {
-        bool NamespaceIsWrapped { get;  }
-
-        void Generate(FormattedStringBuilder formattedStringBuilder, string nameSpace);
-      
+        
     }
 }
