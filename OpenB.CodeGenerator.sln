@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenB.CodeGenerator.Core", "OpenB.CodeGenerator.Core\OpenB.CodeGenerator.Core.csproj", "{EB08C29F-15D0-4C63-ADF2-D03976073388}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenB.CodeGenerator.Core.Test", "OpenB.CodeGenerator.Core.Test\OpenB.CodeGenerator.Core.Test.csproj", "{1FAF3AA5-4107-481C-AC07-92B027BC449C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenB.CSharp.CodeGenerator", "OpenB.CSharp.CodeGenerator\OpenB.CSharp.CodeGenerator.csproj", "{4FAC421A-B9F9-4BCF-BE39-B3C746A1B227}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{EB08C29F-15D0-4C63-ADF2-D03976073388}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB08C29F-15D0-4C63-ADF2-D03976073388}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB08C29F-15D0-4C63-ADF2-D03976073388}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FAF3AA5-4107-481C-AC07-92B027BC449C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FAF3AA5-4107-481C-AC07-92B027BC449C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FAF3AA5-4107-481C-AC07-92B027BC449C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FAF3AA5-4107-481C-AC07-92B027BC449C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FAC421A-B9F9-4BCF-BE39-B3C746A1B227}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FAC421A-B9F9-4BCF-BE39-B3C746A1B227}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FAC421A-B9F9-4BCF-BE39-B3C746A1B227}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FAC421A-B9F9-4BCF-BE39-B3C746A1B227}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
