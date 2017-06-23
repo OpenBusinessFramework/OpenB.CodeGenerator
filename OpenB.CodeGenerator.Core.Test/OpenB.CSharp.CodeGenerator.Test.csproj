@@ -7,8 +7,8 @@
     <ProjectGuid>{1FAF3AA5-4107-481C-AC07-92B027BC449C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>OpenB.CodeGenerator.Core.Test</RootNamespace>
-    <AssemblyName>OpenB.CodeGenerator.Core.Test</AssemblyName>
+    <RootNamespace>OpenB.CSharp.CodeGenerator.Test</RootNamespace>
+    <AssemblyName>OpenB.CSharp.CodeGenerator.Test</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

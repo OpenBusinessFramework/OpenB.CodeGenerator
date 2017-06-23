@@ -1,14 +1,13 @@
 ﻿using NUnit.Framework;
-using OpenB.CSharp.CodeGenerator;
-using System.Collections.Generic;
+using OpenB.CodeGenerator.Core;
 
-namespace OpenB.CodeGenerator.Core.Test
+namespace OpenB.CSharp.CodeGenerator.Test
 {
     [TestFixture]
     public class CSharpCodeGeneratorTest
     {
         [Test]
-        public void DoSomething()
+        public void GenerateClass_ClassIsGeneratedWithoutErrors()
         {
             ClassDetails settings = new ClassDetails
             {
@@ -28,6 +27,8 @@ namespace OpenB.CodeGenerator.Core.Test
 
             CSharpCodeGenerator csharpCodeGenerator = new CSharpCodeGenerator();
             var classString = csharpCodeGenerator.Generate(settings);
+
+            Assert.That(classString, Is.Not.Null);
         }
     }
 }
