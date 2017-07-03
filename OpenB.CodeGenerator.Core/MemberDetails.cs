@@ -6,10 +6,4 @@
         public string Type { get; set; }
         public Cardinality Cardinality { get; set; }
     }
-
-    public enum Cardinality
-    {
-        OneToOne,
-        OneToMany
-    }
 }

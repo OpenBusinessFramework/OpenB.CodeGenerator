@@ -1,12 +1,9 @@
 ﻿using OpenB.CodeGenerator.Util;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace OpenB.CodeGenerator.Core
 {
 
-    public abstract class CodeGeneratorBase
+    public abstract class CodeGeneratorBase 
     {
         private ClassStringBuilder classStringBuilder;
 

@@ -9,6 +9,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenB.CSharp.CodeGenerator.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenB.CSharp.CodeGenerator", "OpenB.CSharp.CodeGenerator\OpenB.CSharp.CodeGenerator.csproj", "{4FAC421A-B9F9-4BCF-BE39-B3C746A1B227}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenB.Core.Modelling", "OpenB.Modelling\OpenB.Core.Modelling.csproj", "{F71DE758-4047-4C2E-B22B-E725E132DC57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenB.CSharp.Modelling", "OpenB.CSharp.Modelling\OpenB.CSharp.Modelling.csproj", "{F765BCA1-71CC-4E26-83F3-1D83DE9A277F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libs", "Libs", "{15B4A155-25CD-42DB-AA71-513AC2E95AB8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +33,14 @@ Global
 		{4FAC421A-B9F9-4BCF-BE39-B3C746A1B227}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4FAC421A-B9F9-4BCF-BE39-B3C746A1B227}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4FAC421A-B9F9-4BCF-BE39-B3C746A1B227}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F71DE758-4047-4C2E-B22B-E725E132DC57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F71DE758-4047-4C2E-B22B-E725E132DC57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F71DE758-4047-4C2E-B22B-E725E132DC57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F71DE758-4047-4C2E-B22B-E725E132DC57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F765BCA1-71CC-4E26-83F3-1D83DE9A277F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F765BCA1-71CC-4E26-83F3-1D83DE9A277F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F765BCA1-71CC-4E26-83F3-1D83DE9A277F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F765BCA1-71CC-4E26-83F3-1D83DE9A277F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

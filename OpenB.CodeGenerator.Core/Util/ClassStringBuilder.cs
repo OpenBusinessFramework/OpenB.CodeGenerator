@@ -6,8 +6,7 @@ using System.Linq;
 namespace OpenB.CodeGenerator.Util
 {
     public class ClassStringBuilder
-    {
-        
+    {        
         ClassStringBuilderSettings classStringBuilderSettings;
 
         public ClassStringBuilder(ClassStringBuilderSettings classStringBuilderSettings)
@@ -16,9 +15,7 @@ namespace OpenB.CodeGenerator.Util
                 throw new ArgumentNullException(nameof(classStringBuilderSettings));
 
             this.classStringBuilderSettings = classStringBuilderSettings;
-        }
-
-        
+        }        
 
         private ICodeBuilder GetClassGenerator(string className, Visibility visiblity, IList<MemberDetails> memberDetails, IList<string> implementations)
         {
@@ -67,19 +64,6 @@ namespace OpenB.CodeGenerator.Util
             }
 
             return formattedStringBuilder.ToString();
-        }
-
-       
-    }
-
-    public interface ITreeCodeBuilder : ICodeBuilder
-    {
-        IList<ICodeBuilder> ChildBuilders { get;  }
-        void BuildChildren(FormattedStringBuilder stringBuilder);
-    }
-
-    public interface ICodeBuilder
-    {
-        void Build(FormattedStringBuilder stringBuilder);
+        }       
     }
 }

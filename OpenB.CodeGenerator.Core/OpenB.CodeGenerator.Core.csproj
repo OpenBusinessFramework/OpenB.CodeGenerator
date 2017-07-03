@@ -40,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cardinality.cs" />
     <Compile Include="ClassStringBuilderSettings.cs" />
     <Compile Include="CodeGeneratorBase.cs" />
     <Compile Include="CodeGeneratorSettings.cs" />
@@ -51,6 +52,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Util\ClassStringBuilder.cs" />
     <Compile Include="Util\FormattedStringBuilder.cs" />
+    <Compile Include="Util\ICodeBuilder.cs" />
+    <Compile Include="Util\ITreeCodeBuilder.cs" />
     <Compile Include="Visibility.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -1,6 +1,4 @@
 ﻿using OpenB.CodeGenerator.Core;
-using System.Collections.Generic;
-using System.Linq;
 
 namespace OpenB.CSharp.CodeGenerator
 {
