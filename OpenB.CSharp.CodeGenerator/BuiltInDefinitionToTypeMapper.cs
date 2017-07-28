@@ -1,6 +1,5 @@
-﻿using OpenB.Core.Modelling;
+﻿using OpenB.Core.Modeling;
 using System.Collections.Generic;
-using System;
 
 namespace OpenB.CSharp.CodeGenerator
 {

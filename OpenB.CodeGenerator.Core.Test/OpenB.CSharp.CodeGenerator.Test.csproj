@@ -36,8 +36,14 @@
     <Reference Include="nunit.framework, Version=3.7.1.0, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
       <HintPath>..\packages\NUnit.3.7.1\lib\net45\nunit.framework.dll</HintPath>
     </Reference>
-    <Reference Include="OpenB.Core, Version=1.0.6317.25322, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\OpenB.Core.1.0.4-Beta\lib\net40\OpenB.Core.dll</HintPath>
+    <Reference Include="OpenB.CodeGenerator.Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\OpenB.CodeGenerator.Core.1.0.2-Beta\lib\net452\OpenB.CodeGenerator.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenB.Core, Version=1.0.6.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\OpenB.Core.1.0.6-Beta\lib\net40\OpenB.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenB.Core.Modeling, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\OpenB.Core.Modeling.1.0.0-Beta\lib\net452\OpenB.Core.Modeling.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -53,17 +59,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\OpenB.CodeGenerator.Core\OpenB.CodeGenerator.Core.csproj">
-      <Project>{eb08c29f-15d0-4c63-adf2-d03976073388}</Project>
-      <Name>OpenB.CodeGenerator.Core</Name>
-    </ProjectReference>
     <ProjectReference Include="..\OpenB.CSharp.CodeGenerator\OpenB.CSharp.CodeGenerator.csproj">
       <Project>{4fac421a-b9f9-4bcf-be39-b3c746a1b227}</Project>
       <Name>OpenB.CSharp.CodeGenerator</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\OpenB.Modelling\OpenB.Core.Modelling.csproj">
-      <Project>{f71de758-4047-4c2e-b22b-e725e132dc57}</Project>
-      <Name>OpenB.Core.Modelling</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

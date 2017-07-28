@@ -1,6 +1,6 @@
 ﻿using NUnit.Framework;
 using OpenB.CodeGenerator.Core;
-using OpenB.Core.Modelling;
+using OpenB.Core.Modeling;
 using System;
 using System.CodeDom.Compiler;
 using System.Collections.Generic;
