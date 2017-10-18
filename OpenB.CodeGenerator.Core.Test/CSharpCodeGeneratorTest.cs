@@ -4,9 +4,7 @@ using OpenB.Core.Modeling;
 using System;
 using System.CodeDom.Compiler;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
-using System.Reflection;
 
 namespace OpenB.CSharp.CodeGenerator.Test
 {

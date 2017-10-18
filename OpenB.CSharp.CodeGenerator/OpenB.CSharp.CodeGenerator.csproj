@@ -63,6 +63,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BuiltInDefinitionToTypeMapper.cs" />
+    <Compile Include="CSharpBuiltInDefinitionArguments.cs" />
     <Compile Include="CSharpClassGenerationTemplate.cs" />
     <Compile Include="CSharpCodeGenerator.cs" />
     <Compile Include="CSharpNamespaceGenerationTemplate.cs" />

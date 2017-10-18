@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.16
+VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenB.CodeGenerator.Core", "OpenB.CodeGenerator.Core\OpenB.CodeGenerator.Core.csproj", "{EB08C29F-15D0-4C63-ADF2-D03976073388}"
 EndProject
@@ -12,6 +12,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenB.CSharp.Modelling", "OpenB.CSharp.Modelling\OpenB.CSharp.Modelling.csproj", "{F765BCA1-71CC-4E26-83F3-1D83DE9A277F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libs", "Libs", "{15B4A155-25CD-42DB-AA71-513AC2E95AB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenB.TypeScript.CodeGenerator", "OpenB.TypeScript.CodeGenerator\OpenB.TypeScript.CodeGenerator.csproj", "{5D920387-2345-4915-AD0D-3C6C7B0F8CE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenB.TypeScript.CodeGenerator.Test", "OpenB.TypeScript.CodeGenerator.Test\OpenB.TypeScript.CodeGenerator.Test.csproj", "{DC00E5B8-D5C2-4338-862B-85F1F34AB270}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,8 +39,19 @@ Global
 		{F765BCA1-71CC-4E26-83F3-1D83DE9A277F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F765BCA1-71CC-4E26-83F3-1D83DE9A277F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F765BCA1-71CC-4E26-83F3-1D83DE9A277F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D920387-2345-4915-AD0D-3C6C7B0F8CE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D920387-2345-4915-AD0D-3C6C7B0F8CE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D920387-2345-4915-AD0D-3C6C7B0F8CE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D920387-2345-4915-AD0D-3C6C7B0F8CE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC00E5B8-D5C2-4338-862B-85F1F34AB270}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC00E5B8-D5C2-4338-862B-85F1F34AB270}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC00E5B8-D5C2-4338-862B-85F1F34AB270}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC00E5B8-D5C2-4338-862B-85F1F34AB270}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1893FF4D-BBED-4B59-A481-812F4AEEB398}
 	EndGlobalSection
 EndGlobal
